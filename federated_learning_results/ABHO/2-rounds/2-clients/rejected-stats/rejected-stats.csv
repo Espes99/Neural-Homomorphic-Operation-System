@@ -1,0 +1,5 @@
+round,client,total_weights,rejected_weights,rejection_percentage,threshold
+1,1,101770,0,0.0,0.99
+1,2,101770,0,0.0,0.99
+2,1,101770,2143,2.1057286037142573,0.5
+2,2,101770,2143,2.1057286037142573,0.5
