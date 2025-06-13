@@ -1,6 +1,25 @@
 # Neural Homomorphic Operation System
 This repository contains the implementation of a research project comparing different encryption approaches for secure federated learning, as described in the thesis "Leveraging Symmetric Neural Cryptography with Homomorphic Properties in Federated Learning".
 
+---
+## Table of Contents
+- [Overview](#overview)
+- [Overview of Neural HE](#overview-of-neural-he)
+- [Overview of Pipeline](#overview-of-pipeline)
+- [Key Features](#key-features)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Running Experiments](#running-experiments)
+  - [Running Individual Experiments](#running-individual-experiments)
+  - [Running Batch Experiments](#running-batch-experiments)
+- [Results Map](#results-map)
+  - [Results Visualization](#results-visualization)
+- [Individual Client Model](#individual-client-model)
+- [Training Neural Cryptographic Models](#training-neural-cryptographic-models)
+  - [Evaluate Trained Models](#evaluate-trained-models)
+- [Important Notes](#important-notes)
+---
 ## Overview
 
 The project implements and compares three federated learning approaches:
