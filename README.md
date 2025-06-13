@@ -10,7 +10,7 @@ The project implements and compares three federated learning approaches:
 3. **Neural HO**: Proposed system - Symmetric neural cryptography with learned homomorphic properties
 
 ## Overview of Neural HE
-![Overview Neural HE](readme_images/overviewho.png "Neural HE overview")
+![Overview Neural HE](readme_images/overview-ho.png "Neural HE overview")
 
 ## Overview of pipeline
 ![Neural Homomorphic Operation System Architecture](readme_images/HO-Pipeline.png "Neural Homomorphic Operation System Pipeline")
