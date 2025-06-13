@@ -7,10 +7,10 @@ from tensorflow.keras.initializers import RandomUniform
 import pandas as pd
 import os
 import sys
+from positive_range_constraint import PositiveRangeConstraint
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from learning_params import NUM_EPOCHS, BATCH_SIZE, CONSTRAINED
 from seed_config import set_all_seeds
-from .positive_range_constraint import PositiveRangeConstraint
 
 class MLPModel:
     """

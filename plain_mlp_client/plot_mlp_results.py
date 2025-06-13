@@ -43,7 +43,7 @@ def plot_history(csv_path, output_dir, loss_fname, acc_fname=None):
         plt.close()
 
 def main(constrainted_model):
-    base_dir = 'plain_mlp_model/'
+    base_dir = 'plain_mlp_client/plain_mlp_model/'
     if constrainted_model:
         csv_file       = 'constraint_mlp_model_history.csv'
         loss_output    = 'mlp_model_loss_plot_constraint.png'
